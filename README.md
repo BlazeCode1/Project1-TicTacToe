@@ -30,11 +30,6 @@ This is a simple console-based Tic Tac Toe game written in Java. It allows one o
 - Enter row and column numbers (0 to 2) to make a move.
 - Input numbers according to the menu to choose a game mode.
 
-## Notes
-
-- The game board is a 3x3 grid.
-- Player 'X' always starts first.
-- In hard mode, the computer plays optimally and cannot be beaten.
 
 # Author
 -Faisal(me)
