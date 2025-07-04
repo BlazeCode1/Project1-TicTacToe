@@ -294,10 +294,12 @@ public class Main {
                 } else {
                     throw new Exception("This move is not valid");
                 }
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("Indexes out of Bound");
+            } catch (InputMismatchException e) {
+                System.out.println("Input a number!.");
+                scanner.nextLine();
             } catch (Exception e) {
                 System.out.println(e.getMessage());
+                scanner.nextLine();
             }
 
         }
